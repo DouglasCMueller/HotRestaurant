@@ -6,36 +6,14 @@ var waitList = [{
     name: "Chris",
     phone: "629 - 900 - 2453",
     email: "blahblah@whatever.com",
-    id: 1
+    id: "jrt"
 }];
 var heldTables = [{
-        name: "Joe",
-        phone: "629 - 900 - 2453",
-        email: "blahblah@whatever.com",
-        id: 1
-    }, {
-        name: "Joe",
-        phone: "629 - 900 - 2453",
-        email: "blahblah@whatever.com",
-        id: 1
-    },
-    {
-        name: "Joe",
-        phone: "629 - 900 - 2453",
-        email: "blahblah@whatever.com",
-        id: 1
-    }, {
-        name: "Joe",
-        phone: "629 - 900 - 2453",
-        email: "blahblah@whatever.com",
-        id: 1
-    }, {
-        name: "Joe",
-        phone: "629 - 900 - 2453",
-        email: "blahblah@whatever.com",
-        id: 1
-    }
-];
+    name: "Joe",
+    phone: "629 - 900 - 2453",
+    email: "blahblah@whatever.com",
+    id: "kdjrt"
+}];
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(__dirname));
